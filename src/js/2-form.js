@@ -3,8 +3,8 @@ let formData = {
   message: ""
 };
 
-const form = document.querySelector('.main-form');
-const localStorageKey = "main-form-state";
+const form = document.querySelector('.feedback-form');
+const localStorageKey = "feedback-form-state";
 
 const savedData = localStorage.getItem(localStorageKey);
 
